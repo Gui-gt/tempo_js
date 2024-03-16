@@ -5,6 +5,8 @@
     padding: 0px;
 }
 body{
-    background-color: dodgerblue;
     text-align: center;
+}
+section{
+    background-color: rgba(0,0 ,0,0.7);
 }
