@@ -17,3 +17,8 @@ section{
     border-radius: 15px;
     color: white;
 }
+img{
+    width: 300px;
+    border-radius: 20%;
+    padding: 20px;
+}
