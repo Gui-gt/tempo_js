@@ -2,6 +2,7 @@ function carregar(){
     let data = new Date()
     let hora = data.getHours()
     let res = document.getElementById('res')
+    hora = 18
     if(hora >= 0 && hora < 12){
         res.innerHTML = `Bom dia`
         document.body.style.background = `pink`
@@ -10,6 +11,6 @@ function carregar(){
         document.body.style.background = `orange`
     }else{
         res.innerHTML = `Boa noite`
-        document.body.style.background = `blue`
+        document.body.style.background = `rgb(0, 106, 255)`
     }
 }
