@@ -1,2 +1,2 @@
-const bnt = document.querySelector("bnt");
-console.log(bnt)
+const hum = document.querySelector(".hum")
+hum.remove();
