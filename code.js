@@ -1,2 +1,3 @@
-const submit = document.querySelector("#submit-input");
-submit.remove();
+const btn = document.querySelector("#submit-input");
+
+btn.remove();
