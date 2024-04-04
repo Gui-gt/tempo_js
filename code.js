@@ -1,2 +1,2 @@
-const hum = document.querySelector(".hum")
-hum.style.color = `blue` 
+const submit = document.querySelector("#submit-input");
+submit.remove();

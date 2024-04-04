@@ -43,7 +43,7 @@ label{
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
 }
-#bnt{
+.bnt{
     display: block;
     background-color: rgba(255, 255, 0, 0.9);
     border: 2px solid rgba(0, 0, 0, 0.893);
