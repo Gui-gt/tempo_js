@@ -1,2 +1,2 @@
-const bnt = document.querySelector("#bnt");
-bnt.remove();
+const bnt = document.querySelector("bnt");
+console.log(bnt)
