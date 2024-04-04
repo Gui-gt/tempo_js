@@ -4,29 +4,59 @@
     margin: 0px;
     padding: 0px;
 }
-header{
-    width: 300px;
-    text-align: center;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.164);
-    padding: 10px;
-    border-radius: 10px;
-    margin: auto;
-    margin-top: 100px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 900;
-    background-color: aliceblue;
-    
+body{
+    background-image: linear-gradient(to right, rgba(242, 255, 0, 0.792), rgba(0, 0, 0, 0.518));
 }
-section{
-    position: absolute;
-    background-color: aliceblue;
-    top: 50%;
+header{
+    background-color: black;
+    color: white;
+    height: 150px;
+    text-align: center;
+    padding-top: 90px;
+    box-shadow: 0px 0px 20px 0px black;
+}
+header > h1{
+    font-size: 2.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+form{
+    position:absolute;
+    padding: 50px;
+    border-radius: 10px;
+    top: 60%;
     left: 50%;
     transform: translate(-50%,-50%);
-    padding: 80px;
-    border-radius: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.297);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    border: 2px solid rgba(0, 0, 0, 0.788);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.225);
+}
+form > h2{
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.664);
+}
+label{
+    font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    font-size: 2em;
+}
+#bnt{
+    display: block;
+    background-color: rgba(255, 255, 0, 0.9);
+    border: 2px solid rgba(0, 0, 0, 0.893);
+    margin: auto;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.email{
+    position: absolute;
+    left: 35%;
+    top: 33%;
+}
+.name{
+    margin-left: 19px;
 }

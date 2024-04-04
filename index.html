@@ -3,21 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tempo</title>
+    <title>Alterando elementos DOM</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
 </head>
-<body onload="carregar()">
+<body>
     <header>
-        <h1>Horas do dia</h1>
+        <h1>elementos DOM com Javascript</h1>
     </header>
-    <section>
-        <div id="res">
-            aqui vai aparecer as horas
-        </div>
-        <div>
-            <img src="" alt="">
-        </div>
-    </section>
+    <form action="formulário">
+        <h2>Javascript</h2>
+        <label for="email">Email</label>
+        <input class="email" type="email" name="eemail" id="email"  
+        placeholder="@exemplo"><br><br>
+        <label for="name">Nome</label>
+        <input class="name" type="email" name="name" id="ename" placeholder="@name">
+        <br><br>
+        <input  id="bnt" type="button" value="ENTRAR">
+    </form>
 </body>
 </html>
